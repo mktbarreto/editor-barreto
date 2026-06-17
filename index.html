@@ -766,10 +766,10 @@
 
     const footY = footLineY + fmt.lineToFoot;
     ctx.font = '700 '+Math.round(28*scale)+'px '+FONT; ctx.fillStyle = LIGHT;
-    ctx.fillText('barreto', PAD, footY);
-    const bw = ctx.measureText('barreto').width;
+    ctx.fillText('Barreto', PAD, footY);
+    const bw = ctx.measureText('Barreto').width;
     ctx.font = '400 '+Math.round(28*scale)+'px '+FONT;
-    ctx.fillText(' imóveis', PAD+bw, footY);
+    ctx.fillText(' Imóveis', PAD+bw, footY);
 
     ctx.font = '500 '+Math.round(22*scale)+'px '+FONT; ctx.fillStyle = GRAY; ctx.textAlign = 'right';
     ctx.fillText(state.contact, W-PAD, footY-2);
